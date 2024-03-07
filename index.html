@@ -4,66 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fenmo</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- add indexcss -->
+<link rel="stylesheet" href="index.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+    
 </head>
-<body class="font-sans bg-gray-100">
-  <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
-    <h1 class="text-xl font-bold text-gray-800">Fenmo</h1>
+<body class="font-sans">
+  <header class="bg-white shadow-md py-3 px-10 pb-5 flex justify-between items-center">
+    <h1 class="text-3xl font-semibold text-gray-800 pl-14 pb-2 ">Fenmo</h1>
     <nav class="space-x-4">
-      <a href="#" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md">Home</a>
-      <!-- <a href="#" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md">Services</a>
-      <a href="#" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md">About Us</a>
-      <a href="#" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md">Contact</a> -->
+      <a href="#" class=" hover:text-gray-800 px-3 py-2 rounded-md">Home</a>
+      <!-- <a href="#" class=" hover:text-gray-800 px-3 py-2 rounded-md">Services</a>
+      <a href="#" class=" hover:text-gray-800 px-3 py-2 rounded-md">About Us</a>
+      <a href="#" class=" hover:text-gray-800 px-3 py-2 rounded-md">Contact</a> -->
     </nav>
+    <!-- add favicon -->
+
+    
   </header>
 
-  <div class="fixed top-0 left-0 w-full h-full overflow-hidden bg-gray-900">
-    <video autoplay loop muted playsinline class="absolute inset-0 w-auto min-w-full min-h-full max-w-none object-cover z-0">
-      <source src="29cad5dd-a28f-494f-ad1d-46de5b0f265e.mp4" type="video/mp4">
-    </video>
-  </div>
-
-
-  <section class="hero min-h-screen px-6 py-16 flex flex-col items-center justify-center">
-    <h2 class="text-xl text-gray-600 text-center mb-12">Fenmo helps businesses achieve their goals through innovative tech solutions.</h2>
+  <section class="hero pt-14 px-6 flex flex-col items-center justify-center">
+    <h2 class="text-8xl pt-10  text-center mb-12 
+    z-10
+    ">
+      Building user-friendly products that win hearts.
+    </h2>
   </section>
 
-  <section class="services py-12 px-6">
-    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Our Services</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="service bg-white shadow-md rounded-md p-6">
-        <i class="fas fa-rocket text-blue-500 text-3xl mb-4"></i>
-        <h4 class="text-xl font-bold text-gray-800 mb-2">Web Development</h4>
-        <p class="text-gray-600">We build stunning and functional websites to elevate your online presence.</p>
-      </div>
-      <div class="service bg-white shadow-md rounded-md p-6">
-        <i class="fas fa-code text-green-500 text-3xl mb-4"></i>
-        <h4 class="text-xl font-bold text-gray-800 mb-2">Mobile App Development</h4>
-        <p class="text-gray-600">Create engaging and user-friendly mobile apps to reach your audience on the go.</p>
-      </div>
-      <div class="service bg-white shadow-md rounded-md p-6">
-        <i class="fas fa-cloud text-purple-500 text-3xl mb-4"></i>
-        <h4 class="text-xl font-bold text-gray-800 mb-2">Cloud Solutions</h4>
-        <p class="text-gray-600">We help businesses leverage the power of the cloud for scalability and efficiency.</p>
-      </div>
-    </div>
-  </section>
+ 
 
-  <section class="about py-12 px-6">
-    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">About Fenmo</h3>
-    <div class="flex flex-col md:flex-row md:space-x-12 items-center">
+
+
+  <section class="about py-12">
+    <div class="flex md:flex-row md:space-x-12 items-center px-10">
       <div class="about-content w-full md:w-1/2">
-        <p class="text-gray-600 text-lg">Fenmo is a tech consultancy company dedicated to helping businesses of all sizes achieve their goals through innovative technology solutions. We offer a wide range of services, from web and mobile app development to cloud solutions and more.</p>
-        <p class="text-gray-600 text-lg mt-4">Our team of experienced and passionate tech professionals is committed to delivering high-quality, results-oriented solutions that meet your specific needs. We work closely with our clients to understand their challenges and develop custom solutions that drive success.</p>
+        <p class=" text-2xl pb-10">
+          Turning Software Ideas into Reality
+        </p>
+        <p>
+          Stuck with a software idea that feels out of reach? Fenmo bridges the gap between your vision and reality.
+        </p>
+        <p>
+          Our expert software consultants transform your ideas into exceptional, real-world solutions.
+        </p>
+      </div>
+        <!-- include 0299bfd9-8596-4605-914b-c420f5cfa941.webp -->
+        <img src="0299bfd9-8596-4605-914b-c420f5cfa941.webp" alt="About Us" class="w-full md:w-1/2  rounded-md shadow-md">
+  </section>
+
+
+  <section class="about py-12">
+    <div class="flex md:flex-row md:space-x-12 items-center px-10">
+        <img src="algos.jpg" alt="About Us" class="w-full md:w-1/2  rounded-md shadow-md">
+        <div class="about-content w-full md:w-1/2">
+          <p class=" text-2xl pb-10">
+            Craft Your Software with Cutting-Edge Tech
+          </p>
+          <ul>
+            <li><strong>Cloud-native architecture:</strong> Scale with ease and deploy globally.</li>
+            <li><strong>Agile development:</strong> Iterate quickly and deliver value fast.</li>
+            <li><strong>AI & Machine Learning:</strong> Integrate intelligent features for a future-proof solution.</li>
+            <li><strong>Modern UI/UX frameworks:</strong> Create user experiences that are intuitive and engaging.</li>
+          </ul>
+        </div>
+  </section>
+
+  <section class="about py-12">
+    <!-- align text ceter -->
+    <div class="flex md:flex-row md:space-x-12 items-center px-10  
+    
+    text-center	
+    ">
+      <div class="w-full justify-center items-center">
+        <p class=" text-2xl pb-10 justify-center">
+          Launch Your Software Vision Faster Than Ever
+        </p>
+        <p>
+          Imagine your game-changing software idea, fully realized. 
+        </p>
+        <p>
+          Fenmo turns that vision into reality at warp speed. Our expert software consultants are your wingmen, collaborating to transform your concept into a powerful, polished solution.
+        </p>
       </div>
   </section>
 
-  <section class="contact py-12 px-6 bg-gray-200">
-    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Contact Us</h3>
+
+  <section class="contact py-12 px-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="contact-info">
         <h4 class="text-xl font-bold text-gray-800 mb-2">Get in Touch</h4>
-        <p class="text-gray-600 mb-4">Have a project in mind? Let's discuss how we can help you achieve your goals.</p>
+        <p class=" mb-4">Have a project in mind? Let's discuss how we can help you achieve your goals.</p>
       </div>
       <form class="contact-form">
         <div class="mb-4">
@@ -86,7 +120,7 @@
   </section>
 
   <footer class="bg-white text-center py-4 shadow-md">
-    <p class="text-gray-600">Copyright &copy; 2024 Fenmo Tech Consultancy</p>
+    <p class="">Copyright &copy; 2024 Fenmo Tech Consultancy</p>
   </footer>
 
   <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
